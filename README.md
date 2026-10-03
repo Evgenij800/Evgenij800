@@ -1,4 +1,4 @@
-# Привет! Я Евгений — Vibe Coder и Freelance-разработчик 🚀
+# Привет! Я Evgenij — Vibe Coder и Freelance-разработчик 🚀
 
 Создаю цифровые продукты, которые решают задачи бизнеса за дни, а не месяцы. Специализация: лендинги с калькуляторами, боты с CRM, трекеры и MVP.
 
@@ -18,78 +18,45 @@
 
 ### 🏗 Лендинг с калькулятором сметы
 
-![Калькулятор сметы](landing-shtukaturka/images/2-calc.png)
-
-- **❗ Проблема:** Менеджеры считали сметы вручную, теряли заявки из-за долгого расчёта
-- **🛠 Решение:** Интерактивный калькулятор с прикреплением расчёта к заявке, плавающая форма, отправка в Google Таблицу
-- **✅ Результат:** Заявка с готовым расчётом за 30 секунд, 7 тестовых заявок за 2:40 работы
+- **❗ Проблема:** менеджеры считали сметы вручную, заявки остывали из-за долгого расчёта
+- **🛠 Решение:** интерактивный калькулятор с прикреплением расчёта к заявке, слайдер «до/после», отправка в Google Таблицы
+- **✅ Результат:** заявка с готовым расчётом за 30 секунд; 7 тестовых заявок в таблице, сборка за 2 ч 40 мин
 
 📁 [`landing-shtukaturka`](https://github.com/Evgenij800/landing-shtukaturka) | 🌐 [Живой сайт](https://shtukaturka.neofreelance.ru/)
 
----
-
 ### 🛒 Витрина магазина кроссовок THRESHOLD
 
-![Витрина кроссовок](threshold/images/hero.png)
-
-- **❗ Проблема:** Магазин не успевал обрабатывать дропы лимитированных моделей, клиенты уходили к конкурентам
-- **🛠 Решение:** Каталог с фильтрами, механика дропов с таймером, корзина на localStorage, формы заявок
-- **✅ Результат:** Полноценная витрина за 6 часов вместо 2-3 недель классической разработки
+- **❗ Проблема:** магазин не успевал обрабатывать дропы лимитированных моделей, клиенты уходили к конкурентам
+- **🛠 Решение:** каталог с фильтрами и поиском, корзина на localStorage, таймер дропа с листом ожидания
+- **✅ Результат:** полноценная витрина за 6 часов вместо 2–3 недель классической разработки
 
 📁 [`threshold`](https://github.com/Evgenij800/threshold) | 🌐 [Живой сайт](https://threshold.neofreelance.ru)
 
----
-
 ### 🏢 Корпоративный трекер задач
 
-![Корпоративный трекер](project-tracker/images/3-kanban.png)
-
-- **❗ Проблема:** Компания теряла задачи в чатах и таблицах, не было прозрачности по проектам
-- **🛠 Решение:** SaaS с RBAC (3 роли), канбан-доска, автобэкапы БД, генерация договоров, RU/EN
-- **✅ Результат:** Полная прозрачность процессов, защита данных, экономия 5+ часов в неделю на отчётности
+- **❗ Проблема:** компания теряла задачи в чатах и таблицах, не было прозрачности по проектам и оплатам
+- **🛠 Решение:** SaaS с RBAC (3 роли), канбан-доска, мониторинг оплат с подсветкой 7 дней, автобэкапы, генерация договоров, RU/EN
+- **✅ Результат:** прозрачность процессов для всей команды, экономия 5+ часов в неделю на отчётности
 
 📁 [`project-tracker`](https://github.com/Evgenij800/project-tracker) | 🌐 [Живое демо](https://project-tracker-production-0a3a.up.railway.app)
+🔑 Тестовые входы: admin / admin123 · manager / manager123 · employee / employee123
 
-**Тестовые входы:**
-- Админ: `admin@demo.ru` / `admin123`
-- Менеджер: `manager@demo.ru` / `manager123`
-- Сотрудник: `employee@demo.ru` / `employee123`
+### 💊 Трекер витаминов
 
----
-
-### 💊 MVP трекера витаминов
-
-![Трекер витаминов](vitamin-tracker/images/tracker.png)
-
-- **❗ Проблема:** Пользователи забывали принимать витамины, не было мотивации продолжать
-- **🛠 Решение:** Онбординг, опрос с отчётом, трекер приёма, загрузка PDF-анализов, веб-уведомления
-- **✅ Результат:** B2C-приложение с полным циклом за 3 часа вместо 2-3 недель
+- **❗ Проблема:** пользователи забывали принимать добавки, не было мотивации и персональных рекомендаций
+- **🛠 Решение:** онбординг, опрос с генерацией отчёта, трекер приёма со слотами утро/вечер, хранение PDF-анализов
+- **✅ Результат:** B2C-приложение полного цикла за 3 часа вместо 2–3 недель
 
 📁 [`vitamin-tracker`](https://github.com/Evgenij800/vitamin-tracker) | 🌐 [Живое демо](https://vitamin-tracker-production.up.railway.app)
-
----
+🔑 Тестовый вход: demo@demo.ru / demo123456
 
 ### 🤖 ИИ-чат-бот с CRM-интеграцией
 
-![ИИ-бот автоброкера](autoprofi_vk_bot/images/dialog.png)
-
-- **❗ Проблема:** Автоброкер терял "остывшие" обращения, менеджеры не успевали отвечать
-- **🛠 Решение:** Бот ВКонтакте с ИИ-квалификацией, база знаний, запись на консультацию, передача лидов в Bitrix24
-- **✅ Результат:** Круглосуточная обработка заявок, экономия 3-4 часов работы менеджера в день
+- **❗ Проблема:** автоброкер терял обращения вне рабочих часов, менеджеры не успевали квалифицировать лидов
+- **🛠 Решение:** бот ВКонтакте с ролью эксперта, базой знаний, квалификацией по бюджету и сроку, записью на консультацию и передачей лида в Битрикс24 через вебхук
+- **✅ Результат:** круглосуточная обработка заявок; горячий лид с датой записи приходит в CRM без участия человека
 
 📁 [`autoprofi_vk_bot`](https://github.com/Evgenij800/autoprofi_vk_bot)
-
----
-
-### 🧮 Десктоп-калькулятор стоимости
-
-![Калькулятор каркасного дома](calculator/images/interface.png)
-
-- **❗ Проблема:** Менеджеры считали сметы в Excel, путали цены, тратили время на пересчёт
-- **🛠 Решение:** Локальное приложение с автообновлением прайса из Яндекс.Диска, экспорт в .xlsx
-- **✅ Результат:** Точный расчёт за 2 минуты, актуальные цены всегда, без ошибок
-
-📁 [`estimate-calculator`](https://github.com/Evgenij800/estimate-calculator)
 
 ---
 
@@ -97,10 +64,10 @@
 
 | Что сделано | Результат |
 |---|---|
-| ⚡ Калькулятор сметы | Заявка с расчётом за 30 секунд вместо 15 минут ручного счёта |
+| ⚡ Калькулятор сметы (лендинг и десктоп-версия) | Заявка с расчётом за 30 секунд вместо 15 минут ручного счёта |
 | 🤖 ИИ-бот с CRM | Квалификация лида за 2 минуты, передача в CRM без участия человека |
 | 📊 Корпоративный трекер | Прозрачность проектов для всей команды, автобэкапы защищают данные |
-| 🏗 Витрина магазина | Полноценный e-commerce за 6 часов вместо 2-3 недель |
+| 🛒 Витрина магазина | Полноценный e-commerce за 6 часов вместо 2–3 недель |
 
 ---
 
@@ -111,7 +78,7 @@
 | 1️⃣ Бриф | Обсуждаем задачу и желаемый результат |
 | 2️⃣ Оценка | Утверждаем этапы, сроки и стоимость |
 | 3️⃣ Договор | Закрепляем условия и порядок оплаты 50/50 |
-| 4️⃣ Разработка | Спринты 3-5 дней с демо в конце |
+| 4️⃣ Разработка | Спринты 3–5 дней с демо в конце |
 | 5️⃣ Правки | 2 круга включены в стоимость |
 | 6️⃣ Сдача | Передаю доступы, инструкцию, поддержка 30 дней |
 
@@ -121,25 +88,23 @@
 
 **Расскажите о задаче, которую вам сейчас сложно решать. Я предложу решение и разработаю инструмент специально для вас.**
 
-📧 Email: enm.vibecoder@gmail.com  
-💬 Telegram: [@nik1_Evgeniy](https://t.me/nik1_Evgeniy)  
+📧 Email: enm.vibecoder@gmail.com
+💬 Telegram: [@nik1_Evgeniy](https://t.me/nik1_Evgeniy)
 🌐 Портфолио: [portfolio.neofreelance.ru](https://portfolio.neofreelance.ru)
 
 ---
 
 <details>
-<summary>🇬🇧 English version (Click to expand)</summary>
+<summary>🇬🇧 English version</summary>
 
 # Hi! I'm Evgenij — Vibe Coder and Freelance Developer 🚀
 
-I build digital products that solve business problems in days, not months. Specialization: landing pages with calculators, bots with CRM integration, trackers, and MVPs.
+I build digital products that solve business problems in days, not months: landing pages with calculators, bots with CRM integration, trackers and MVPs.
 
 ## 🎯 How I Can Help
 
-I work with small businesses and product teams. Companies typically bring me in for:
-
-- 💰 **Automating calculations** — managers get accurate quotes in 2 minutes instead of 15 minutes of manual work
-- 🤖 **Not losing leads at night** — bots handle inquiries 24/7 and book consultations
+- 💰 **Automating calculations** — accurate quotes in 2 minutes instead of 15 minutes of manual work
+- 🤖 **Not losing leads at night** — 24/7 bot qualifies leads and books consultations
 - 📊 **Project transparency** — kanban boards show real-time status of every task
 
 ## 📈 Delivering Measurable Impact
@@ -148,30 +113,15 @@ I work with small businesses and product teams. Companies typically bring me in 
 |---|---|
 | ⚡ Estimate calculator | Quote with calculation in 30 seconds instead of 15 minutes manual work |
 | 🤖 AI bot with CRM | Lead qualification in 2 minutes, transfer to CRM without human intervention |
-| 📊 Corporate tracker | Full project transparency for the team, automatic backups protect data |
-| 🏗 Store showcase | Full e-commerce in 6 hours instead of 2-3 weeks |
-
-## 🔄 Project Workflow
-
-| Stage | What's Included |
-|---|---|
-| 1️⃣ Discovery | Discussing the problem and desired outcome |
-| 2️⃣ Estimation | Defining milestones, timeline, and cost |
-| 3️⃣ Agreement | Finalizing terms and 50/50 payment structure |
-| 4️⃣ Development | 3-5 day sprints with demo at the end |
-| 5️⃣ Review | 2 revision rounds included in base scope |
-| 6️⃣ Handover | Access credentials, documentation, 30 days support |
+| 📊 Corporate tracker | Full project transparency, automatic backups protect data |
+| 🛒 Store showcase | Full e-commerce in 6 hours instead of 2–3 weeks |
 
 ## 📬 Get in Touch
 
-**Tell me about a task you're struggling with. I'll propose a solution and build a custom tool for you.**
-
-📧 Email: enm.vibecoder@gmail.com  
-💬 Telegram: [@nik1_Evgeniy](https://t.me/nik1_Evgeniy)  
-🌐 Portfolio: [portfolio.neofreelance.ru](https://portfolio.neofreelance.ru)
+📧 enm.vibecoder@gmail.com · 💬 [@nik1_Evgeniy](https://t.me/nik1_Evgeniy) · 🌐 [portfolio.neofreelance.ru](https://portfolio.neofreelance.ru)
 
 </details>
 
 ---
 
-*Этот профиль создан с помощью вайб-кодинга за 2 часа — тоже кейс.*
+*Этот профиль создан с применением методологии Vibe-Coding: от идеи до продакшена за дни, а не месяцы.*
