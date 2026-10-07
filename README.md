@@ -101,7 +101,7 @@
 **Расскажите о задаче, которую вам сейчас сложно решать. Я предложу решение и разработаю инструмент специально для вас.**
 
 📧 Email: enm.vibecoder@gmail.com
-💬 Telegram: [@nik1_Evgeniy](https://t.me/nik1_Evgeniy)
+💬 Telegram: [@ENM_Evgenij](https://t.me/ENM_Evgenij)
 🌐 Портфолио: [portfolio.neofreelance.ru](https://portfolio.neofreelance.ru)
 
 ---
@@ -123,7 +123,7 @@ I build fast, clear digital solutions: landing pages with calculators, chat bots
 
 ## 📬 Get in Touch
 
-📧 enm.vibecoder@gmail.com · 💬 [@nik1_Evgeniy](https://t.me/nik1_Evgeniy) · 🌐 [portfolio.neofreelance.ru](https://portfolio.neofreelance.ru)
+📧 enm.vibecoder@gmail.com · 💬 [@ENM_Evgenij](https://t.me/ENM_Evgenij) · 🌐 [portfolio.neofreelance.ru](https://portfolio.neofreelance.ru)
 
 </details>
 
