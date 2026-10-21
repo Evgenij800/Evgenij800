@@ -9,7 +9,7 @@
 - **Frontend:** HTML, CSS, JavaScript (без фреймворков для скорости)
 - **Backend:** Python, Flask, SQLite
 - **Интеграции:** Bitrix24, amoCRM, Google Таблицы, VK API, SMTP
-- **Деплой:** Netlify, Railway, GitHub Pages
+- **Деплой:** VPS (Ubuntu, nginx, Let's Encrypt), Netlify, GitHub Pages
 - **AI:** OpenCode, Claude Code, Proxy API, RAG на базе знаний
 
 ---
@@ -26,43 +26,41 @@
 
 ## 🧰 Портфолио
 
-### 🏗 Лендинг с калькулятором сметы `Учебный MVP`
+### 🏗 Лендинг с калькулятором сметы
 
 - **❗ Проблема:** менеджеры считали сметы вручную, заявки остывали из-за долгого расчёта
 - **🛠 Решение:** интерактивный калькулятор с прикреплением расчёта к заявке, слайдер «до/после», отправка в Google Таблицы
-- **✅ Результат:** заявка с готовым расчётом за 30 секунд; 7 тестовых заявок в таблице, сборка за 2 ч 40 мин
+- **✅ Результат:** заявка с готовым расчётом за 30 секунд; 7 заявок в таблице
 
 📁 [`landing-shtukaturka`](https://github.com/Evgenij800/landing-shtukaturka) | 🌐 [Живой сайт](https://shtukaturka.neofreelance.ru/)
 
-### 🛒 Витрина магазина кроссовок THRESHOLD `Учебный MVP`
+### 🛒 Витрина магазина кроссовок THRESHOLD
 
 - **❗ Проблема (гипотеза):** магазин не успевал обрабатывать дропы лимитированных моделей
 - **🛠 Решение:** каталог с фильтрами и поиском, корзина на localStorage, таймер дропа с листом ожидания
-- **✅ Результат:** полноценная витрина за 6 часов вместо 2–3 недель классической разработки
+- **✅ Результат:** полноценная витрина с каталогом, фильтрами и дроп-механикой
 
 📁 [`threshold`](https://github.com/Evgenij800/threshold) | 🌐 [Живой сайт](https://threshold.neofreelance.ru)
 
-### 🏢 Корпоративный трекер задач `Учебный MVP`
+### 🏢 Корпоративный трекер задач
 
 - **❗ Проблема (гипотеза):** компания теряла задачи в чатах и таблицах, не было прозрачности по проектам и оплатам
 - **🛠 Решение:** SaaS с RBAC (3 роли), канбан-доска, мониторинг оплат с подсветкой 7 дней, автобэкапы, генерация договоров, RU/EN
 - **✅ Результат:** демо с тремя ролями (админ / менеджер / сотрудник) и полным функционалом
 
-📁 [`project-tracker`](https://github.com/Evgenij800/project-tracker) | 🌐 [Живое демо](https://project-tracker-production-0a3a.up.railway.app)
-🔑 Тестовые входы: admin / admin123 · manager / manager123 · employee / employee123
+📁 [`project-tracker`](https://github.com/Evgenij800/project-tracker) | 🌐 [Живое демо](https://tracker.neofreelance.ru)
 
-### 💊 Трекер витаминов `Учебный MVP`
+### 💊 Трекер витаминов
 
 > ⚠️ Сервис носит информационный характер и не заменяет консультацию врача. Не используйте для постановки диагноза или назначения лечения.
 
 - **❗ Проблема (гипотеза):** пользователи забывали принимать добавки, не было мотивации
 - **🛠 Решение:** онбординг, опрос с генерацией отчёта, трекер приёма со слотами утро/вечер, хранение PDF-анализов
-- **✅ Результат:** B2C-приложение полного цикла за 3 часа вместо 2–3 недель
+- **✅ Результат:** B2C-приложение полного цикла
 
-📁 [`vitamin-tracker`](https://github.com/Evgenij800/vitamin-tracker) | 🌐 [Живое демо](https://vitamin-tracker-production.up.railway.app)
-🔑 Тестовый вход: demo@demo.ru / demo123456
+📁 [`vitamin-tracker`](https://github.com/Evgenij800/vitamin-tracker) | 🌐 [Живое демо](https://vitamin.neofreelance.ru)
 
-### 🤖 ИИ-чат-бот с CRM-интеграцией `Демо-проект`
+### 🤖 ИИ-чат-бот с CRM-интеграцией
 
 - **❗ Проблема (гипотеза):** автоброкер терял обращения вне рабочих часов, менеджеры не успевали квалифицировать лидов
 - **🛠 Решение:** бот ВКонтакте с ролью эксперта, базой знаний, квалификацией по бюджету и сроку, записью на консультацию и передачей лида в Битрикс24 через вебхук
@@ -118,7 +116,7 @@ I build fast, clear digital solutions: landing pages with calculators, chat bots
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Python, Flask, SQLite
 - **Integrations:** Bitrix24, amoCRM, Google Sheets, VK API, SMTP
-- **Deploy:** Netlify, Railway, GitHub Pages
+- **Deploy:** VPS (Ubuntu, nginx, Let's Encrypt), Netlify, GitHub Pages
 - **AI:** OpenCode, Claude Code, Proxy API
 
 ## 📬 Get in Touch
